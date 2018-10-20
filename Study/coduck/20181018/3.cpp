@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int main2(){
+int main(){
 	cout<<"hi"<<endl;
 	cout<<"   |"<<endl;
 	cout<<"  /|\\"<<endl;
@@ -20,16 +20,16 @@ int main2(){
 	return 0;
 }
 
-int main(){
+//int main(){
 	//cout<<"Hello, world!"<<endl;
 	//main2();
-	int a,b;
-	a=3;
+//	int a,b;
+//	a=3;
 	//b=5;
 	//cout<<a+b;
 	
-	return 0;
-}
+//	return 0;
+//}
  
 
 
