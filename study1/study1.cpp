@@ -14,26 +14,26 @@ int main() {
 	int a = 0;
 
 	for(int i = 0; i < 5; i++) {
-		cout << "è¾“å…¥ï¼š";
+		cout << "ÊäÈë£º";
 		cin >> a;
 
-		cout << "è¾“å‡ºï¼š";
+		cout << "Êä³ö£º";
 		cout << "a = " << a << ", ";
 		if((a < 0) || (a > 100)) {
-			cout << "è¾“å…¥é”™è¯¯ï¼" << endl;
+			cout << "ÊäÈë´íÎó£¡" << endl;
 		}
 		else {
 			if(a < 60) {
-				cout << "ä¸åŠæ ¼" << endl;
+				cout << "²»¼°¸ñ" << endl;
 			}
 			else if(a < 70) {
-				cout << "åŠæ ¼" << endl;
+				cout << "¼°¸ñ" << endl;
 			}
 			else if(a < 90) {
-				cout << "è‰¯å¥½" << endl;
+				cout << "Á¼ºÃ" << endl;
 			}
 			else {
-				cout << "ä¼˜ç§€" << endl;
+				cout << "ÓÅĞã" << endl;
 			}
 		}
 	}
