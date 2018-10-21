@@ -1,9 +1,9 @@
 //============================================================================
-// Name        : study1.cpp
+// Name        : class.cpp
 // Author      : cwb
 // Version     :
 // Copyright   : Your copyright notice
-// Description : Hello World in C, Ansi-style
+// Description : coduck K1 class practice in C, Ansi-style
 //============================================================================
 
 #include <iostream>
