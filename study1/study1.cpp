@@ -11,22 +11,30 @@
 using namespace std;
 
 int main() {
-	int a;
+	int a = 0;
 
-	for(;;){
+	for(int i = 0; i < 5; i++) {
+		cout << "输入：";
 		cin >> a;
 
-		if(a < 60){
-			cout << "不及格";
+		cout << "输出：";
+		cout << "a = " << a << ", ";
+		if((a < 0) || (a > 100)) {
+			cout << "输入错误！" << endl;
 		}
-		else if((a >= 60) && (a < 70)){
-			cout << "及格";
-		}
-		else if((a >= 70) && (a < 90)){
-			cout << "良好";
-		}
-		else if(a >= 90){
-			cout << "优秀";
+		else {
+			if(a < 60) {
+				cout << "不及格" << endl;
+			}
+			else if(a < 70) {
+				cout << "及格" << endl;
+			}
+			else if(a < 90) {
+				cout << "良好" << endl;
+			}
+			else {
+				cout << "优秀" << endl;
+			}
 		}
 	}
 
