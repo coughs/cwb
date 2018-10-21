@@ -10,7 +10,7 @@
 
 using namespace std;
 
-it main() {
+int main() {
 	int a;
 	cin>>a;
 	if(a<60){
