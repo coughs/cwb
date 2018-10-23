@@ -1,42 +1,35 @@
-//============================================================================
-// Name        : study1.cpp
-// Author      : cwb
-// Version     :
-// Copyright   : Your copyright notice
-// Description : Hello World in C, Ansi-style
-//============================================================================
-
-#include <iostream>
-
+#include<iostream>
 using namespace std;
 
-int main() {
-	int a = 0;
+int main(){
+	float a,b,c,d;
 
-	for(int i = 0; i < 5; i++) {
-		cout << "输入：";
-		cin >> a;
+	for(int i = 0; i<5;i++){
+		float a,b,c,d;
+		cin>>a>>b>>c>>d;
 
-		cout << "输出：";
-		cout << "a = " << a << ", ";
-		if((a < 0) || (a > 100)) {
-			cout << "输入错误！" << endl;
+		if((a*b)<(a*c)&&(a*c)<(a*d)){
+			cout<<"A "<<a*b;
+			cout<<""<<endl;
 		}
-		else {
-			if(a < 60) {
-				cout << "不及格" << endl;
-			}
-			else if(a < 70) {
-				cout << "及格" << endl;
-			}
-			else if(a < 90) {
-				cout << "良好" << endl;
-			}
-			else {
-				cout << "优秀" << endl;
-			}
+		if((a*b)>(a*c)&&(a*c)>(a*d)){
+			cout<<"C "<<a*d;
+		}
+		if((a*c)>(a*b)&&(a*b)>(a*d)){
+			cout<<"C "<<a*d;
+		}
+		if(((a*c)>(a*d))&&((a*d)>(a*b))){
+			cout<<"A "<<a*b;
+		}
+
+		if((a*b)>(a*d)&&(a*d)>(a*c)){
+			cout<<"B "<<a*c;
+		}
+		if((a*d)>(a*b)&&(a*b)>(a*c)){
+			cout<<"B "<<a*c;
 		}
 	}
 
 	return 0;
 }
+
