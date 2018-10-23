@@ -11,31 +11,32 @@
 using namespace std;
 
 int main() {
-	int a = 0;
+//	int a = 0;
 
 	for(int i = 0; i < 5; i++) {
-		cout << "输入：";
-		cin >> a;
-
-		cout << "输出：";
-		cout << "a = " << a << ", ";
-		if((a < 0) || (a > 100)) {
-			cout << "输入错误！" << endl;
+		int a,b;
+		cin>>a;
+		if(a-5<=0){
+			a-5;
+			b=2;
 		}
-		else {
-			if(a < 60) {
-				cout << "不及格" << endl;
-			}
-			else if(a < 70) {
-				cout << "及格" << endl;
-			}
-			else if(a < 90) {
-				cout << "良好" << endl;
-			}
-			else {
-				cout << "优秀" << endl;
-			}
+		else if(a-10<=0){
+			a-5;
+			b=3;
 		}
+		else if(a-17<=0){
+			a-5;
+			b=4;
+		}
+		else if(a-27<=0){
+			a-5;
+			b=5;
+		}
+		else if(a-38<=0){
+			a-5;
+			b=6;
+		}
+		cout<<b;
 	}
 
 	return 0;
