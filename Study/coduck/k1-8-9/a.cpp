@@ -1,9 +1,14 @@
 #include<iostream>
 using namespace std;
 int main(){
-	int t;
-	cin>>t;
-	t=t%10*100+t%100-t%10+((t-t%100)/100);
-	cout<<t; 
-	return 0;
+    int a,b,v;
+    cin>>a>>b>>v;
+    if((v-a)%(a-b)>0){
+        cout<<(v-a)/(a-b)+2;
+    }
+    else{
+        cout<<(v-a)/(a-b)+1;
+    }
+    return 0;
 }
+ 
