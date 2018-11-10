@@ -1,0 +1,9 @@
+/study1/study1
+*.exe
+*.o
+Makefile
+.log
+.plugins
+.lock
+.settings
+.metadata
