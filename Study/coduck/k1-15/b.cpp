@@ -7,9 +7,11 @@ int main () {
 	int n,x;
 	cin>>n;
 	long a[n-1];
+	
 	for(i=1;i<=n;i++){
 		cin>>a[i-1];
 	}
+	
 	cin>>x;
 	for(i=1;i<=n;i++){
 		if(a[i-1]==x){
