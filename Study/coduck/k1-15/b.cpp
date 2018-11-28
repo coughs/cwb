@@ -21,10 +21,11 @@ int main () {
 		else{
 			b++;
 		} 
-		if(b==5){
-			cout<<"-1";
-		} 
+	
 	}
+	if(b==n){
+		cout<<"-1";
+	} 	
 	return 0;
 } 
 
