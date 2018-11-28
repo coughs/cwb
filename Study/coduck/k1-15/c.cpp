@@ -3,19 +3,23 @@
 using namespace std;
 
 int main () {
-	int n,m,b=0;
+	long long i,b=0;
+	int n,x;
 	cin>>n;
-	int a[n-1];
-	for(int i=1;i<=n;i++){
-		cin>>a[i-1];
+	long a[100];
+	
+	for(i=0;i<n;i++){
+		cin>>a[i];
 	}
-	cin>>m;
-	for(int i=0;i<=n;i++){
-		if(a[i-1]==m){
-			b++;
+	
+	cin>>x;
+	for(i=0;i<n;i++){
+		if(a[i]==x){
+			b++;	
 		} 
 	}
 	cout<<b;
+
 	return 0;
 } 
 
